@@ -6,10 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		B5E669022E55EE0A001A2F60 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B5E669032E55EE30001A2F60 /* Types.gv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Types.gv; sourceTree = "<group>"; };
+		B5E669182E56041F001A2F60 /* Types.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Types.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B5E669192E560598001A2F60 /* Images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXGroup section */
 		B5E668F72E55EE04001A2F60 = {
 			isa = PBXGroup;
 			children = (
+				B5E669192E560598001A2F60 /* Images */,
+				B5E669032E55EE30001A2F60 /* Types.gv */,
+				B5E669022E55EE0A001A2F60 /* Makefile */,
+				B5E669182E56041F001A2F60 /* Types.svg */,
 			);
 			sourceTree = "<group>";
 		};
